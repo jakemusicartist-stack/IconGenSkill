@@ -85,14 +85,6 @@ The agent will prompt you with the design questionnaire, review peer benchmarks,
 
 ---
 
-## Publishing to GitHub
-
-To publish this repository to your GitHub account:
-1. Run `publish_to_github.bat`
-2. Follow the on-screen prompt to link your GitHub repository URL.
-
----
-
 ## License
 
 MIT License. Free to use in personal and commercial projects.
