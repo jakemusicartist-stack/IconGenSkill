@@ -17,7 +17,26 @@ Compatible with **Google Antigravity**, **Gemini CLI**, **Claude Code**, **Curso
 
 ---
 
-## One-Click Installation
+## 🤖 Universal Agent Prompt (One-Click Install)
+
+Copy and paste this prompt directly into **any** AI agent chat (Google Antigravity, Gemini CLI, Claude Code, Cursor, Windsurf, Codex, OpenCode, or Copilot CLI) to install this skill automatically:
+
+```text
+Please download and install the macOS Icon Designer skill from:
+https://github.com/jakemusicartist-stack/IconGenSkill
+
+Instructions:
+1. Clone or download the repository from https://github.com/jakemusicartist-stack/IconGenSkill
+2. Install the `skills/macos-icon-designer` folder universally into this agent's active skill path:
+   - On Windows: run `install.bat --all` from the repository root, or copy `skills/macos-icon-designer` into `~/.gemini/config/skills/`, `~/.claude/skills/`, `~/.agents/skills/`, or the active project's `.cursor/skills/`.
+   - On macOS/Linux: run `bash install.sh --all` from the repository root, or copy `skills/macos-icon-designer` into `~/.gemini/config/skills/`, `~/.claude/skills/`, or `~/.agents/skills/`.
+3. Verify that `SKILL.md`, `scripts/`, `references/`, and `templates/` are all present.
+4. Confirm once installed and ready, then prompt me with the 6 discovery questions to design my macOS vector icon.
+```
+
+---
+
+## One-Click Manual Installation
 
 ### Windows
 Run the installer script:

@@ -53,16 +53,8 @@ if %ERRORLEVEL% EQU 0 (
     echo       No GitHub remote URL is configured yet.
     echo       Create a new repository on GitHub (e.g. https://github.com/new)
     echo.
-    set /p "REPO_URL=Enter your GitHub repository URL (e.g. https://github.com/user/macos-icon-designer.git): "
-    if "!REPO_URL!"=="" (
-        echo [WARNING] No URL provided. Git repository is initialized locally.
-        echo You can link it later with:
-        echo   git remote add origin ^<your-github-url^>
-        echo   git push -u origin main
-        echo.
-        pause
-        exit /b 0
-    )
+    set /p "REPO_URL=Enter your GitHub repository URL [default: https://github.com/jakemusicartist-stack/IconGenSkill.git]: "
+    if "!REPO_URL!"=="" set "REPO_URL=https://github.com/jakemusicartist-stack/IconGenSkill.git"
     git remote add origin !REPO_URL!
 )
 
